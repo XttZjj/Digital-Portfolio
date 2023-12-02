@@ -1,0 +1,33 @@
+{
+    "nodes": [
+        {
+            "data": {
+                "id": "605755",
+                "idInt": 605755,
+                "name": "PCNA",
+                "score": 0.006769776522008331,
+                "query": true,
+                "gene": true
+            }
+        },
+        {
+            "data": {
+                "id": "611408",
+                "idInt": 611408,
+                "name": "FEN1",
+                "score": 0.006769776522008331,
+                "query": false,
+                "gene": true
+              }
+        }
+    ],
+    "edges": [
+        {
+            "data": {
+                "id": "12345",
+                "source": "605755",
+                "target": "611408"
+            }
+        }
+    ]
+}

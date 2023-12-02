@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bubble Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+    }
+
+    .bubble {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      width: 60px;
+      border-radius: 50%;
+      font-size: 14px;
+      font-weight: bold;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .small { width: 60px; }
+    .medium { width: 80px; }
+    .large { width: 100px; }
+
+    /* Define different colors based on label */
+    .label1 { background-color: #3498db; color: #fff; }
+    .label2 { background-color: #2ecc71; color: #fff; }
+    .label3 { background-color: #e74c3c; color: #fff; }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th></th> <!-- Top-Left Corner Placeholder -->
+        <th class="label label1">Label 1</th>
+        <th class="label label2">Label 2</th>
+        <th class="label label3">Label 3</th>
+        <!-- Add more column labels as needed -->
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="label">n_citation 1</td>
+        <td class="bubble small label1">Bubble 1</td>
+        <!-- Add more bubbles as needed -->
+      </tr>
+      <tr>
+        <td class="label">n_citation 2</td>
+        <td class="bubble medium label2">Bubble 2</td>
+        <!-- Add more bubbles as needed -->
+      </tr>
+      <tr>
+        <td class="label">n_citation 3</td>
+        <td class="bubble large label3">Bubble 3</td>
+        <!-- Add more bubbles as needed -->
+      </tr>
+      <!-- Add more rows as needed -->
+    </tbody>
+  </table>
+</body>
+</html>
