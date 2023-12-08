@@ -86,7 +86,7 @@ const App = () => {
       </div>
       <Carousel afterChange={onChange} autoplay>
         <div>
-        <a href={'https://xttt.itch.io/chronocaverns'}>
+        <a href={'https://shufengc.itch.io/chrono-portal-a-journey-home'}>
           <img src={cover} style={{ width: "100vw", height: "61vh" }}/>
         </a>
         </div>
